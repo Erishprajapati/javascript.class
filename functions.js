@@ -19,9 +19,39 @@
  }
  const result=addFiveNumbers(15,15,15,15,40);
  console.log("Result: " , result);
-**/
 
-function loginUserMessage (username){
+
+function loginUserMessage(username){
     return`${username} just logged in `;
 }
-connsole.log(loginUserName(username));
+console.log(loginUserName(username));
+
+
+function loginUserMessage(username){
+    if(username === undefined){
+        console.log("please enter a username");
+        return ;
+
+    }
+    return `${username} just logged in`; 
+}
+console.log(loginUserMessage());
+
+function loginStudentMessage(Studentname = "ram"){
+    if( !Studentname){
+        console.log("please enter a Studentname");
+        return;
+    }
+    return `${Studentname} just logged in`;
+}
+console.log(loginStudentMessage("hari"));
+**/
+
+function loginUserMessage(Professorname = "sandesh tamang"){
+    if(!Professorname){
+        console.log("please enter subjective professor name");
+        return;
+    }
+    return `${Professorname} just checked in`;
+}
+console.log(loginUserMessage());
