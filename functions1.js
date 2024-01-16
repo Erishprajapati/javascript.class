@@ -133,12 +133,3 @@ message(professor5,salary5)
 message(professor6,salary6)
 message(professor7,salary7)
 **/
-if ('serviceWorker' in navigator && navigator.serviceWorker.getRegistrations) {
-    navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        if (registrations) {
-            registrations.forEach(function (registration) {
-                registration.unregister().catch(function () {});
-            });
-        }
-    }).catch(function () {});
-}
