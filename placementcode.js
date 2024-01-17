@@ -56,14 +56,16 @@ a.addEventListener("click", function() {
     a.style.backgroundColor="black";
     a.style.color="white";
 });
+
+var a = document.querySelector("h2");
+a.addEventListener("click", function(){
+    a.innerHTML = "Server Diasbled from admin";
+    a.style.border="3px solid black";
+    a.style.backgroundColor="red";
+})
 **/
-var b = document.querySelector("h2");
-b.addEventListener("click", function(){
-b.innerHTML = "Sever down problem occurs frequently.";
-b.style.color = "red";
-b.style.textAlign= "center";
-b.style.border= "3px solid black";
+var bulb = document.querySelector("#bulb");
+var btn = document.querySelector("button");
+btn.addEventListener("click", function(){
+ bulb.style.backgroundColor:"white"
 });
-
-
-
