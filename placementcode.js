@@ -18,7 +18,7 @@ a.style.textAlign = "right"
 a.style.backgroundColor = "red"
 
 
-//1. selection od a element 
+//1. selection of a element 
  var a = document.querySelector("h1")
 console.log(a)
 
@@ -63,9 +63,30 @@ a.addEventListener("click", function(){
     a.style.border="3px solid black";
     a.style.backgroundColor="red";
 })
-**/
-var bulb = document.querySelector("#bulb");
+
+ var bulb = document.querySelector("#bulb");
 var btn = document.querySelector("button");
 btn.addEventListener("click", function(){
- bulb.style.backgroundColor:"white"
+    bulb.style.backgroundColor="purple";
 });
+
+var bulb = document.querySelector("#bulb");
+var btn = document.querySelector("button");
+var flash = 0
+btn.addEventListener("click", function(){
+    if(flash == 0){
+    bulb.style.backgroundColor="magenta";
+});
+
+ var a = document.querySelectorAll("h1")
+ console.log(a)
+ a.forEach(function(e){
+console.log(e)
+ });
+
+var college = document.querySelectorAll("h1")
+console.log(college)
+college.forEach(function(e){
+console.log(e)
+});
+ **/
