@@ -19,4 +19,4 @@ symbol = used for uniqueness
 
 object
 */
-console.log(typeof null)
+console.log(typeof null) 
