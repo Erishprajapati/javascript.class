@@ -1,15 +1,15 @@
 let value = '10'
 
-//console.log(typeof value);
-//console.log(value);
+console.log(typeof value);
+console.log(value);
 
-//const firstName = "Erish";
-//const lastName = "prajapati";
+const firstName = "Erish";
+const lastName = "prajapati";
 
-//let fullName = firstName + lastName;
-//console.log(fullName);
+let fullName = firstName + lastName;
+console.log(fullName);
 
-/* the information of someone 
+the information of someone 
 const firstName = "ayush";
 const lastName = "bajimaya";
 let number = 1234567;
@@ -45,6 +45,69 @@ let information = {
     number: number
 }
 console.log(information);
-*/
 
-//adding string and number 
+
+//displaying information
+const firstName = "Satwik";
+const lastName = "tripathi";
+const gender = "male";
+const location = "sanepa,lalitpur";
+let education = "bachelor";
+let status = "single";
+let number = 98288907382
+let information = {
+  firstName: firstName,
+  lastName: lastName,
+  gender: gender,
+  number: number,
+  education: education,
+  status: status,
+  location: location
+}
+let isloggedin = false;
+let userLoggedIn = Boolean(isloggedin);
+if (userLoggedIn){
+  console.log(information);
+}else{
+  console.log("information not found");
+}
+
+
+//displaying any other informations
+// implementing all 
+const firstName = "erish";
+const lastName = "Prajapati";
+const gender = "male";
+let status = "single";
+let education = "bachelor";
+let location = "bhaktapur";
+
+let information = {
+  firstName: firstName,
+  lastName: lastName,
+  gender: gender,
+  status: status,
+  education: education,
+  location: location
+};
+
+let age = 18;
+if (age < 16) {
+  console.log("Your access is denied");
+} else if (age > 19) {
+  console.log("You have been granted access");
+}
+
+let isloggedIn = 1;
+let erisloggedin = Boolean(isloggedIn);
+if (erisloggedin) {
+  console.log("You can view information");
+} else {
+  console.log("Your permission is denied");
+}
+
+console.log(information);
+
+let gameKill = 100
+++gameKill;
+console.log(gameKill);
