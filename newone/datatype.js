@@ -1,22 +1,66 @@
- "use strict"; //treat all JS code as new version
- //alert( 3 + 3) can use window.alert and we are using node.js not browser
- 
- //console.log(9 + 8);
- //console.log("erish")
 
-let name = "erish";
-let age = 18
-let isLoggedIn = false
+/*
+let isloggedIn = false;
+let accountIdloggedIn = Boolean(isloggedIn);
+if (accountIdloggedIn){
+    console.log("accountIdloggedIn successfully");
+}else{
+    console.log("accountIdloggedIn failed")
+}
+const accountId = 1234321;
+const acccountName = "Erish's account";
+const accountType = "saving account";
+let accountBalance = 30000000;
 
-/*datatypes
-number 
-bigint = used for large set of number
-string = " double cotation"
-boolean = true or false
-null = stand alone value
-undefined = not giving value
-symbol = used for uniqueness
+let accountInformation = {
+    acccountName: acccountName,
+    accountBalance: accountBalance,
+    accountType: accountType
+}
+console.log(accountInformation);
 
-object
+let isloggedIn = false; // Change this to false for testing
+
+if (isloggedIn) {
+    const accountId = 1234321;
+    const accountName = "Erish's account";
+    const accountType = "saving account";
+    let accountBalance = 30000000;
+
+    let accountInformation = {
+        accountName: accountName,
+        accountBalance: accountBalance,
+        accountType: accountType
+    };
+
+    console.log(accountInformation);
+} else {
+    console.log("User is not logged in.");
+}
+
+let isloggedIn = false; // Assign boolean false instead of string "false"
+if(userLoggedIn) {
+    const firstName = "Erish";
+    const lastName = "prajapati";
+    const gender = "male";
+    let username = "scrumbler";
+    let location = "sunakothi,lalitpur";
+    let education = "bachelor running";
+    let number = 98546765649;
+    let email = "scrumbler@gmail.com";
+    
+    let userInformation = {
+        firstName: firstName, 
+        lastName: lastName,
+        gender: gender,
+        username: username,
+        location: location,
+        education: education,
+        number: number,
+        email: email
+    };
+    console.log(userInformation);
+} else {
+    console.log("user not found");
+}
 */
-console.log(typeof null) 
