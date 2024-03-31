@@ -29,7 +29,7 @@ console.log(sumanisloggedIn)
 
 let isLoggedIn = 1;
 let erisLoggedIn = Boolean(isLoggedIn);
-console.log(erisLoggedIn); */
+console.log(erisLoggedIn); 
 
 let isLoggedIn = 0
 let userLoggedIn = Boolean(isLoggedIn)
@@ -39,3 +39,25 @@ if(userLoggedIn) {
 }else{
     console.log("user has not logged in");
 }
+
+let isLoggedIn = 1;
+let userLoggedIn = Boolean(isLoggedIn);
+if(userLoggedIn) {
+    console.log("user not logged in")
+}else{
+    console.log("eris logged in")
+
+
+const isLoggedIn = 1;
+let userLoggedIn = Boolean(isLoggedIn);
+if(userLoggedIn){
+    console.log("user logged in");
+}else{
+    console.log("user not logged in");
+}
+*/
+let someNumber = 19;
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber)

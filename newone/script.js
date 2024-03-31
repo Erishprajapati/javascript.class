@@ -3,7 +3,7 @@ let accountEmail = "irishmjn@gmail.com";
 var accountPassword = "erish";
 accountCity = "lokanthali";
 
- accountId = 2
+ accountId = 2;
  accountEmail = "erishmjn@gmail.com";
  accountPassword = "ganthye";
  accountCity = "bhaktapur";
