@@ -64,3 +64,26 @@ if(userLoggedIn) {
     console.log("user not found");
 }
 */
+
+let userLoggedIn = 1;
+if(userLoggedIn){
+    const firstName = "Erish";
+    let lastName = "Prajapati";
+    let number = 9898999;
+    const gender = "male";
+    let email = "irish@gmail.com";
+    let education = "bachelor";
+
+    let userInformation = {
+        firstName: firstName,
+        lastName: lastName,
+        number: number,
+        gender: gender,
+        email: email,
+        education: education
+    };
+
+    console.log(userInformation);
+}else{
+    console.log("user not found");
+}
