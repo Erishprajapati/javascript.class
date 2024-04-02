@@ -38,22 +38,30 @@ let myArray3 = myArray1 + myArray2;
 console.log(myArray1[0] +myArray2[0])
 //console.log(myArray3);
 
-*/
+
+
 let name = ["erish", "suman", "rabindra", "saras", "samyam", "salin", "rahita"];
 let number = [98989898, 89898998, 232343445, 5656543, 34454433, 45423455, 234435555];
-let location = ["lokanthali", "hattiban", "pulchowk", "bhaisipati", "godawari", "mangalbazar"];
+
 let college = ["dav","united","LA","DAV", "Janapremi", "Pinnacle", "omega"];
 
 let information = [name, location, number, college]
-//console.log(name[1], location[1], number[1], college[4]);
+console.log(name[1], number[1], college[4]);
 
-
+*/
 //array methods 
-information.push(2)
-console.log(information);
+//information.push(2)
+//console.log(information);
 
+//sigma web development 
+let arr = [1, 4, 5, 6, 7];
+arr[1] = 23234
+//console.log(arr);
+//console.log(arr.length) 
 
-
+let a = 12
+a [0]= "erish"
+console.log(a);
 
 
 
