@@ -61,7 +61,7 @@ arr[1] = 23234
 
 let a = 12
 a [0]= "erish"
-console.log(a);
+console.log(arr);
 
 
 

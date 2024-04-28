@@ -56,3 +56,12 @@ while ( i < 7){
 }
 
 */
+
+// adding numbers at beggining 
+const brothers = ['Sofan', 'Aryan', 'Aayan', 'Anuj', 'Rukesh']
+let i = 0 
+while ( i < brothers.length ){
+    console.log(${i + 2}. brothers[i]);
+    i++;
+}
+console.log("program")
