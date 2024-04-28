@@ -55,13 +55,30 @@ while ( i < 7){
     i = i + 1;
 }
 
-*/
+
 
 // adding numbers at beggining 
-const brothers = ['Sofan', 'Aryan', 'Aayan', 'Anuj', 'Rukesh']
-let i = 0 
-while ( i < brothers.length ){
-    console.log(${i + 2}. brothers[i]);
+const brothers = ['Sofan', 'Aryan', 'Aayan', 'Anuj', 'Rukesh'];
+let i = 0;
+while (i < brothers.length) {
+    console.log(`${i + 1}. ${brothers[i]}`);
     i++;
 }
-console.log("program")
+
+const familyMembers = ['sudip', 'ram', 'laxam', 'mahima', 'sujal'];
+let a = 0;
+while (a < familyMembers.length) {
+    console.log(`${a + 1}. ${familyMembers[a]}`);
+    a++;
+}
+*/
+
+// suppose the information of all the employees
+const myEmployees = ['sita', 'deepak', 'hari', 'sajan', 'rajan', 'mandip']
+let e = 1;
+while (e < myEmployees.length) {
+    console.log(`${e + 1}. ${myEmployees[e]}`);
+    e++;
+}if(e === 10){
+    console.log("we have ten employees");
+}
