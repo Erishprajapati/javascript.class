@@ -54,7 +54,7 @@ const student = () =>{
     console.log(name + lastName + ` lives in ` + permanentlocation + ` but nowadays he has shifted on` + temporaryLocation + ` his contact number is ` + number)
 }
 student();
-*/
+
 // basic arrow functions in js 
 function allow(name){
     return `Namaste, ${name}`;
@@ -63,3 +63,5 @@ function allow(name){
 const allowfunction = (name) => `welcome, ${name}`;
 console.log(allow('Sahil'));
 console.log(allowfunction('Raman'));
+*/
+
