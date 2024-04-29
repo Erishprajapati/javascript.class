@@ -18,7 +18,7 @@ function facebookUser(){
     instagramUser();
 }
 facebookUser();
-**/
+
 
 // with if else statement 
 if(1){
@@ -28,3 +28,15 @@ if(1){
         console.log(username + " uses " + website)
     }
 }
+**/
+//this keyword 
+const user = {
+    username: "manish",
+    price: 1099,
+    welcomemsg: function(){
+        console.log(`${this.username}, welcome to website`);
+    }
+}
+user.welcomemsg()
+user.username = "alwish"
+user.welcomemsg();
