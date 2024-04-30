@@ -34,7 +34,7 @@ fbUser.then(function() {
     console.log("ID deactivation key: [123]");
 });
 
-**/
+
 new Promise(function(resolve, reject) {
     setTimeout(function() {
         console.log("asynchronous task 2");
@@ -57,4 +57,31 @@ Email:"irish@gmail.com",
 promiseThree.then(function(user){
     console.log(user)
 
+})
+
+
+const ibUsers = new Promise(function(resolve, reject){
+resolve({username: "erish123",
+account: "github",
+email: "srcumbler@gmail.com",
+password: "fecthesive"
+})
+},1000)
+ibUsers.then(function(user){
+    console.log(user)
+})
+**/
+promiseFour = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = false
+        if(! error){
+            resolve({username: "sambhav", password: "sambhav123"})
+        }else{
+            reject('ERROR : Failed to archive data')
+        }
+    },1000)
+})
+.then((user) =>{
+    console.log(user);
+    return user.username
 })
