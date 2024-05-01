@@ -1,23 +1,25 @@
-// Selecting the <div> element
-var divElement = document.querySelector('h1');
-
-// Updating the content of the <div> element
-divElement.innerHTML = "welcome to pinterest";
-
-// Function to add dynamic text
-function addDynamicText() {
-    var dynamicText = "Welcome to my website!";
-    var dynamicTextElement = document.getElementById('dynamicText');
-    dynamicTextElement.textContent = dynamicText;
+//objects in js 
+/** 
+const person = {
+    name: 'John',
+    age: 34,
+    location: 'USA',
 }
+console.log(person.name)
+console.log(person.age)
 
-// Function to add dynamic array
-function addDynamicArray() {
-    var dynamicArray = ["Apple", "Banana", "Orange", "Grapes"];
-    var dynamicArrayElement = document.getElementById('dynamicArray');
-    dynamicArrayElement.textContent = "Dynamic Array: " + dynamicArray.join(", ");
+const myArray = ['erish', 'suman', 'jenson', 'rabindra']
+console.log(myArray.length)
+console.log(myArray[0])
+
+//create a object 
+const car = {
+    brand: 'Ferrari',
+    model: '1989',
+    year: 2000,
 }
+console.log(car)
+car.brand = 'Honda'
+console.log(car)
+*/
 
-// Call functions to add dynamic content
-addDynamicText();
-addDynamicArray();
