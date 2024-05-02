@@ -39,3 +39,12 @@ const myBill =(pay1, pay2, pay3,pay4) =>{
     console.log(100+200+900+600);
 }
 myBill();
+
+let savings = 50000
+if(savings>5000 & savings<10000){
+    console.log("your available balance is more than Nrs.five thousand")
+}else if (savings>10,000 & savings<100000){
+    console.log("your available balance is more than Nrs.ten thousand")
+}else if(savings>100,000){
+    console.log("your have some sufficient amount of balance")
+}
