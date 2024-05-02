@@ -33,7 +33,7 @@ while(i < 5){
     console.log(i)
     i++;
 }
-*/
+
 
 // array in javascript
 
@@ -42,3 +42,15 @@ const button = document.querySelector('button');
 button.addEventListener('click', function(){
     console.log('button clicked');
 })
+
+const variable = document.querySelector('h2');
+variable.innerHTML = 'your sign in are made';
+variable.style.color = 'red';
+
+document.addEventListener('DOMContentLoaded', function() {
+    const button = document.querySelector('button');
+    button.addEventListener('click', function() {
+        console.log('Button clicked');
+    });
+});
+*/
