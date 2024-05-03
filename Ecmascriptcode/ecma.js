@@ -63,5 +63,20 @@ function allow(name){
 const allowfunction = (name) => `welcome, ${name}`;
 console.log(allow('Sahil'));
 console.log(allowfunction('Raman'));
-*/
 
+
+//ecmascript in javascript 
+var name="erish"
+console.log(name);
+let surname = "prajapati"
+console.log(surname);
+const gender = "male"
+console.log(gender);
+
+var name = "erish"
+name = "sajan"
+console.log(name);
+*/
+let name = "erish"
+name = "Username"
+console.log(name);
