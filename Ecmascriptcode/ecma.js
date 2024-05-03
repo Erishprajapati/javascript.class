@@ -76,7 +76,39 @@ console.log(gender);
 var name = "erish"
 name = "sajan"
 console.log(name);
-*/
+
 let name = "erish"
 name = "Username"
 console.log(name);
+
+
+function modJs(love){
+    if(love){
+        let name = "erish";
+        const surname = "prajapati";
+        console.log("my name is " + name + " " + surname);
+    }
+}
+modJs(true);
+
+function modJs(love){
+    if(love){
+        var name = "erish";
+        var surname = "prajapati";
+        console.log("my name is " + name + " " + surname);
+    }
+}
+modJs(true);
+
+//suppose we are creating a sales bill
+function salesBill(){
+    if(){
+        var stationary = "780000";
+        var dress = "8000";
+        var conditionals = "9000";
+        console.log("Your total bill is " + stationary + " " + dress + " " + conditionals);
+    }
+
+}
+salesBill();
+*/
