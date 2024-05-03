@@ -48,3 +48,9 @@ if(savings>5000 & savings<10000){
 }else if(savings>100,000){
     console.log("your have some sufficient amount of balance")
 }
+
+let totalBalance = 10
+for(let i=0; i<totalBalance; i++){// this is a statement/numbers printed using for loop statement
+    console.log(i)
+}
+
