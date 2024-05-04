@@ -72,9 +72,26 @@ const total = bill(100, 200, 250, 450, function(num1, num2, num3, num4) {
 });
 
 console.log(total);
+
+
+//more about callback function 
+const semesterFee = (a, b, c, operation) =>{
+    return operation(a, b, c);
+}
+const totalFee = semesterFee(70000,  25000,  9000, function(num1, num2, num3){
+    return num1 + num2 + num3;
+});
+console.log(totalFee);
+
+
+const myExpenses = (a, b, c, d, operations) =>{
+    return operations(a, b, c, d);
+}
+const totalExpenses = myExpenses(9000, 8000, 7000,6000, function(num1, num2, num3, num4){
+    return num1 + num2 + num3 + num4;
+});
+console.log(totalExpenses);
 **/
-
-
 
 
 
