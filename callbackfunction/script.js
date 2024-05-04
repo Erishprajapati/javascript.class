@@ -91,7 +91,28 @@ const totalExpenses = myExpenses(9000, 8000, 7000,6000, function(num1, num2, num
     return num1 + num2 + num3 + num4;
 });
 console.log(totalExpenses);
+
+
+//asynchronous code 
+// the code which will be executed later 
+//setTimeout function 
+// setTimeout (function, milliseconds)
+console.log("hello world");
+setTimeout(() => {
+    console.log("this will print abit later");
+}, 4000);
+console.log("hello namaste");
+console.log("hi how are you");
+
+const testResult = (a, b, c, operation) => {
+    return operation(a, b, c);
+}
+
+const marks = testResult(80, 90, 100, function(num1, num2, num3) {
+    console.log(num1 + num2 + num3);
+    setTimeout(() => {
+        console.log("You have obtained total marks.");
+    }, 2000);
+});
 **/
-
-
 
