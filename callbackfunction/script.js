@@ -83,7 +83,6 @@ const totalFee = semesterFee(70000,  25000,  9000, function(num1, num2, num3){
 });
 console.log(totalFee);
 
-
 const myExpenses = (a, b, c, d, operations) =>{
     return operations(a, b, c, d);
 }
@@ -114,5 +113,28 @@ const marks = testResult(80, 90, 100, function(num1, num2, num3) {
         console.log("You have obtained total marks.");
     }, 2000);
 });
-**/
 
+function getCheese(callback){
+    setTimeout(() => {
+        let cheese = "🫶🏻"
+        console.log("here is cheese", cheese);
+        callback(cheese);
+    }, 2000);
+}
+getCheese ((cheese) => {
+    console.log("got the cheese", cheese);
+
+})
+**/
+let welcomeMessage = " Hi sir/madam"
+console.log("welcomeMessage")
+function greetingMessage(callback){
+    let Message = "❤️"
+    setTimeout(() => {
+        console.log("welcome to linkedIN server", Message);
+        callback(greetingMessage);
+    }, 3000)
+}
+greetingMessage(()=>{
+    console.log("Welcome to linkedIN server", Message);
+})
