@@ -125,7 +125,7 @@ getCheese ((cheese) => {
     console.log("got the cheese", cheese);
 
 })
-**/
+
 let welcomeMessage = " Hi sir/madam"
 console.log("welcomeMessage")
 function greetingMessage(callback){
@@ -138,3 +138,5 @@ function greetingMessage(callback){
 greetingMessage(()=>{
     console.log("Welcome to linkedIN server", Message);
 })
+**/
+
