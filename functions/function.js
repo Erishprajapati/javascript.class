@@ -13,4 +13,18 @@ function personInformation() {
 
 const person = personInformation();
 //console.log(person);
-git
+
+//suppose we need to create a salary of senior developer with his information using function 
+function srDeveloper(){
+    return{
+        name: 'Nihal shrestha',
+        age: 29,
+        location: 'patan',
+        gender: 'male',
+        id: 11,
+    }
+}
+
+//const developer = srDeveloper();
+//console.log(developer);
+
