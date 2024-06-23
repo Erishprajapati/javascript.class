@@ -76,19 +76,19 @@ weather = (day, condition) =>{
 // });
 
 //making a payment message using the settimeout with 4 purposes 
-payment = (topic, amount, method, name) => {
-    console.log("For " + topic + " Rs " + amount + " has been paid " +  "through " + method +  " for " + name);
-}
-const paymentDetails =[
-    {topic: "internet renewal", amount: "19,000", method: "online payment", name: "Nabika maharjan"},
-    {topic: "bike servicing", amount: "10000", method: "cash", name:" shree motorcars"},
-    {topic: "Savings", amount: "9000", method: "khalti app", name:"Rameshwor"},
-    {topic: "Expenses", amount: "12000", method: "cash and online payment", name:"Lists are hand written"},
-    {topic: "shopping", amount: "19000", method: "cash", name: " erish prajapati"}
-];
+// payment = (topic, amount, method, name) => {
+//     console.log("For " + topic + " Rs " + amount + " has been paid " +  "through " + method +  " for " + name);
+// }
+// const paymentDetails =[
+//     {topic: "internet renewal", amount: "19,000", method: "online payment", name: "Nabika maharjan"},
+//     {topic: "bike servicing", amount: "10000", method: "cash", name:" shree motorcars"},
+//     {topic: "Savings", amount: "9000", method: "khalti app", name:"Rameshwor"},
+//     {topic: "Expenses", amount: "12000", method: "cash and online payment", name:"Lists are hand written"},
+//     {topic: "shopping", amount: "19000", method: "cash", name: " erish prajapati"}
+// ];
 
-paymentDetails.forEach((paymentData,index)=>{
-    setTimeout(() => {
-       payment(paymentData.topic, paymentData.amount, paymentData.method, paymentData.name) 
-    }, 2000 * (index + 1));
-});
+// paymentDetails.forEach((paymentData,index)=>{
+//     setTimeout(() => {
+//        payment(paymentData.topic, paymentData.amount, paymentData.method, paymentData.name) 
+//     }, 2000 * (index + 1));
+// });
