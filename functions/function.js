@@ -99,4 +99,4 @@ console.log("You total balance is ", dress + games + petrol + drinks);
 const totalIncome = (salary, shares, revenue, rent) =>{
     console.log("your balance of the asar month is ", salary + shares + revenue + rent);
 }
-totalIncome(90000, 25000, 1000, 25000)
+//totalIncome(90000, 25000, 1000, 25000)
